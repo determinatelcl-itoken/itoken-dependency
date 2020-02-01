@@ -50,6 +50,14 @@
         </dependencies>
     </dependencyManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub determinelcl Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/determinelcl/maven-hub</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <!-- Compiler 插件, 设定 JDK 版本 -->
